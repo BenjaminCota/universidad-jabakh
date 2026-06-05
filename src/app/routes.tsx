@@ -57,4 +57,4 @@ export const router = createBrowserRouter([
     path: "*",
     Component: NotFound,
   },
-]);
+], { basename: '/benjamin_cota/' });
